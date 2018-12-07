@@ -1,0 +1,103 @@
+body{
+	   background-color: #87CEFA;
+	   font-family: Georgia;
+	   font-size:16px
+	   color:#444;
+}
+ 
+.content{
+	width: 80%;
+	margin: 10px auto;
+}
+ 
+/*header*/
+header{
+	background:url(background2.jpg); 
+	padding: 20px 10px;
+	border-radius: 5px;
+	border: 1px solid #f0f0f0;
+	margin-bottom: 10px;
+}
+ 
+header h1.judul,
+header h3.deskripsi{
+	text-align: center;	
+}
+ 
+/*menu navigasi*/
+.menu{
+	background:url(background2.jpg); 
+	border: 1px solid #f0f0f0;
+	border-radius: 8px;	
+	margin-bottom: 10px;
+}
+ 
+div.menu ul {
+	list-style:none;
+	overflow: hidden;
+}
+ 
+ 
+div.menu ul li {
+	float:left;		
+	text-transform:uppercase;
+}
+ 
+div.menu ul li a {
+	display:block;	
+	padding:0 20px;
+	text-decoration:none;
+	color:#2c2c2c;
+	font-family: sans-serif;
+	font-size:13px;
+	font-weight:400;
+	transition:all 0.3s ease-in-out;
+}
+ 
+div.menu ul li a:hover,
+div.menu ul li a.hoverover {	
+	cursor: pointer;	
+	color:#fff;
+}
+ 
+ 
+div.badan{
+	  background:url(background2.jpg);
+	  border-radius: 5px;
+	  border: 1px solid #f0f0f0;
+	  margin-bottom: 10px;
+}
+ 
+div.halaman{
+	text-align: center;
+	padding: 30px 20px;	
+}
+div.art-footer
+{
+   position: relative;
+   margin-top:0;
+   margin-bottom:0;
+   width: 100%;
+}
+
+div.art-footer-body
+{
+   position:relative;
+   padding: 10px;
+   color: #282919;
+   font-size: 14px;
+}
+div.art-footer-text
+{
+   min-height: 24px;
+   padding-left: 10px;
+   padding-right: 10px;
+   text-align: center;
+}
+div.gmbar {
+  background-image: url("hrd.jpg");
+  background-repeat: no-repeat;
+  padding-left: 18px !important;
+  background-size: 20%;
+  background-position-y: 20%;
+}
